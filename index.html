@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refael Real-Estate - מצגת שותפים</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            direction: rtl;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: #003366;
+            margin-bottom: 1rem;
+        }
+
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .team-members {
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            flex: 1;
+            min-width: 300px;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .process-item {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .values {
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .value-item {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .contact {
+            text-align: center;
+            background: #003366;
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+
+        .advantages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .advantage-item {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Refael Real-Estate</h1>
+        <h2>מצגת שותפים</h2>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>מי אנחנו?</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>גבריאל ביטון</h3>
+                    <p>בעל תואר ראשון ושני בכלכלה ועסקים - התמחות בבנקאות ומימון</p>
+                </div>
+                <div class="team-member">
+                    <h3>רפאל ערוסי</h3>
+                    <p>בעל תואר ראשון בהנדסה אזרחית B.S.c</p>
+                </div>
+            </div>
+            <p>בעלי ניסיון רב בתחום הבנייה והנדל"ן של למעלה מעשור בארץ ובחו"ל (מגורים ומסחרי)</p>
+        </section>
+
+        <section class="section">
+            <h2>שיטת העבודה שלנו</h2>
+            <div class="process-grid">
+                <div class="process-item">פגישה עם היזם בשלב הראשוני לפני היציאה לשיווק</div>
+                <div class="process-item">ביצוע מחקר שוק ואפשרויות מימון</div>
+                <div class="process-item">העברת ההצעה למשקיעים</div>
+                <div class="process-item">התאמת הדירה בהתאם לסוג המשקיע</div>
+                <div class="process-item">ליווי הלקוח עד לסגירת התנאים המסחריים</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>היתרונות ליזם</h2>
+            <div class="advantages">
+                <div class="advantage-item">שיתופי פעולה הדוקים עם גורמים מובילים בענף</div>
+                <div class="advantage-item">אופציה גם לשיווק שקט מתחת לרדאר</div>
+                <div class="advantage-item">חיסכון משמעותי בזמן ובתקציבי שיווק</div>
+                <div class="advantage-item">פגישת לקוחות ברמת וודאות לסגירת עסקה של 95%</div>
+                <div class="advantage-item">תהליך המכירה מרוכז וזריז</div>
+                <div class="advantage-item">יצירתיות במתן פתרונות ללקוח</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>הערכים שלנו</h2>
+            <div class="values">
+                <div class="value-item">
+                    <h3>שקיפות</h3>
+                    <p>שקיפות מלאה לכל אורך התהליך, הן ללקוח והן ליזם</p>
+                </div>
+                <div class="value-item">
+                    <h3>מקצועיות</h3>
+                    <p>כל עסקה נבחנת היטב אל מול האלטרנטיבות הקיימות בשוק</p>
+                </div>
+                <div class="value-item">
+                    <h3>יושרה</h3>
+                    <p>כל עסקה מועברת ללקוח רק במידה ואנו מאמינים ביזם ובמוצר</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>צור קשר</h2>
+            <p>זמינים עבורכם לכל שאלה</p>
+            <p>גבריאל | 054-5501684</p>
+        </section>
+    </div>
+</body>
+</html>
